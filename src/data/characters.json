@@ -96,5 +96,12 @@
     "strength": 10,
     "intelligence": 9,
     "speed": 7
+  },
+  {
+    "id": 14,
+    "name": "Donovan",
+    "strength": 5,
+    "intelligence": 9,
+    "speed": 7
   }
 ]
