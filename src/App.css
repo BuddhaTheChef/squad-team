@@ -12,12 +12,21 @@ body {
   padding: 5%;
 }
 
+.main-content-div {
+  display: flex;
+}
+
 .main-title {
   color: whitesmoke;
   font-size: 40px;
 }
 
 .sub-title {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.squad-title {
   color: whitesmoke;
   font-size: 30px;
 }
