@@ -8,7 +8,7 @@ class CharacterList extends Component {
     console.log('this.props', this.props);
     return (
       <div>
-        <h4 className="sub-title">Characters</h4>
+        <h4 className="sub-title">Choose Your Characters</h4>
         <ul className="list-group">
           {
             this.props.characters.map(character => {

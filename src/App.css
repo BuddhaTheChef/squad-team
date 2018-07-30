@@ -1,6 +1,7 @@
 
 body {
-  background-color: rgb(62, 62, 62);
+  /* background-color: rgb(62, 62, 62); */
+  background-color: whitesmoke;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,21 +15,31 @@ body {
 
 .main-content-div {
   display: flex;
+  margin-top: 40px;
 }
 
 .main-title {
-  color: whitesmoke;
-  font-size: 40px;
+  color: rgb(29, 124, 115);
+  font-size: 50px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 .sub-title {
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 23px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 .squad-title {
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 23px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.rank-title {
+  color: whitesmoke;
+  font-size: 23px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 .right-button {
@@ -38,4 +49,8 @@ body {
 
 .list-item {
   display: inline-block;
+}
+
+.list-group-item {
+  box-shadow: 0px 13px 34px 4px rgba(0,0,0,.3);
 }
