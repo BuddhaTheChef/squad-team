@@ -10,7 +10,7 @@ body {
 
 .App {
   text-align: center;
-  padding: 5%;
+  padding: 3% 5% 5% 5%;
 }
 
 .main-content-div {
@@ -45,10 +45,17 @@ body {
 .right-button {
   cursor: pointer;
   float: right;
+  background-color: red;
+  width: 30px;
+  height: 35px;
+  border: black solid 2px;
+  border-radius: 3px;
+  color: black;
 }
 
 .list-item {
   display: inline-block;
+  font-size: 20px;
 }
 
 .list-group-item {
