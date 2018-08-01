@@ -1,7 +1,7 @@
 
 body {
-  /* background-color: rgb(62, 62, 62); */
-  background-color: whitesmoke;
+  background-color: rgb(62, 62, 62);
+  /* background-color: whitesmoke; */
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,27 +19,45 @@ body {
 }
 
 .main-title {
-  color: rgb(29, 124, 115);
+  color: rgb(21, 119, 140);
   font-size: 50px;
-  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  text-shadow: 0 0 3px white, 0 0 5px white;
+  font-family: 'Coiny', cursive;
 }
 
 .sub-title {
   color: whitesmoke;
   font-size: 23px;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  margin-bottom: 30px;
+  font-family: 'Coiny', cursive;
 }
 
 .squad-title {
   color: whitesmoke;
   font-size: 23px;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  margin-bottom: 30px;
+  font-family: 'Coiny', cursive;
 }
 
 .rank-title {
   color: whitesmoke;
   font-size: 23px;
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  margin-bottom: 30px;
+  font-family: 'Coiny', cursive;
+}
+
+.plus-right-button {
+  cursor: pointer;
+  float: right;
+  background-color: rgb(5, 60, 106);
+  width: 30px;
+  height: 35px;
+  border: black solid 2px;
+  border-radius: 3px;
+  color: white;
 }
 
 .right-button {
@@ -50,14 +68,39 @@ body {
   height: 35px;
   border: black solid 2px;
   border-radius: 3px;
-  color: black;
+  color: white;
 }
 
 .list-item {
   display: inline-block;
   font-size: 20px;
+  font-family: 'Coiny', cursive;
 }
 
 .list-group-item {
   box-shadow: 0px 13px 34px 4px rgba(0,0,0,.3);
 }
+
+.strength-title, .smart-title ,.speed-title {
+  font-family: 'Poor Story', cursive;
+  font-size: 20px;
+}
+
+.strength-content, .smart-content, .speed-content {
+  font-family: 'Coiny', cursive;
+}
+
+.s {color: red }
+  .u {color: rgb(252, 192, 9) }
+    .p {color: green }
+      .e {color: blue }
+        .ee {color: purple }
+        .r {color: purple }
+          .q {color: green }
+            .a {color: yellow }
+              .d {color: blue }
+                .t {color: green }
+                  .m {color: red }
+                  .G { color: blue }
+                    .g {color: purple }
+                      .n {color: red }

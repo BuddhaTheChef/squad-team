@@ -27,16 +27,16 @@ speed() {
         <h4 className="rank-title">Squad Stats</h4>
         <ul className="list-group">
           <li className="list-group-item">
-            <b>Overall Strength:</b>
-            <h6>{this.strength()}</h6>
+            <b className="strength-title">Overall Strength:</b>
+            <h6 className="strength-content">{this.strength()}</h6>
           </li>
           <li className="list-group-item">
-            <b>Overall Intellegence:</b>
-            <h6>{this.intelligence()}</h6>
+            <b className="smart-title">Overall Intellegence:</b>
+            <h6 className="smart-content">{this.intelligence()}</h6>
           </li>
           <li className="list-group-item">
-            <b>Overall Speed:</b>
-            <h6>{this.speed()}</h6>
+            <b className="speed-title">Overall Speed:</b>
+            <h6 className="speed-content">{this.speed()}</h6>
           </li>
         </ul>
       </div>
